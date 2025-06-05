@@ -1,23 +1,26 @@
-📄 PDF Word Counter (Python Tool)
+# Amazing Bitcoin World PDF Generator
 
-This is a simple Python script that extracts text from a PDF file and counts the total number of words.
+This script generates a multi-page Bangla PDF about Bitcoin with a cover page, table of contents, and images.
 
-### 🚀 Features:
-- Extracts text from all pages of a PDF
-- Counts total number of words
-- Simple and clean CLI
+## Features
 
-### 🛠 Requirements:
-- Python 3
-- PyPDF2: Install using `pip install PyPDF2`reportlab`
+- Cover page
+- Table of Contents
+- Chapters in Bangla
+- Bitcoin logo image
+- Custom Bangla font (DejaVu)
 
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-.\venv\Scripts\activate    # Windows
+## Requirements
 
-pip install fpdf2
-python create_pdf.py
+- Python 3.x
+- `fpdf` library
 
-### 🔧 How to Use:
+## Installation
+
 ```bash
-python pdf_word_counter.py# pdf-word-counter
+git clone https://github.com/babo0179/pdf-word-counter.git
+cd pdf-word-counter
+python -m venv venv
+venv\Scripts\activate
+pip install fpdf
+python create_pdf.py
